@@ -1,0 +1,200 @@
+* {
+    font-style: #EEEEEE;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color:#1F2937;
+    color:#EEEEEE;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#1F2937;
+    padding: 10px 50px;
+    margin-bottom: 50px;
+}
+
+#header img {
+    width: 60px;
+    border-radius: 50%;
+}
+
+menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+li {
+    list-style: none;
+}
+
+header li, footer li {
+    margin-right: 10px;
+}
+
+.nav-link {
+    color:#EEEEEE;
+    text-decoration: none;
+}
+
+li a {
+    font-weight: bold;
+}
+
+#hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
+}
+
+h1, h2 {
+    font-size: 1.5rem;
+}
+
+#email {
+    font-family: inherit;
+    height: 30px;
+    min-width: 200px;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+.button {
+    font-family: inherit;
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 5px 10px;
+    background-color:#EEEEEE;
+    color:#1F2937;
+    border: 1px solid #EEEEEE;
+    border-radius: 2px;
+    margin: 10px auto;
+    text-decoration: none;
+}
+
+.button:hover {
+    background-color: #1F2937;
+    color:#051935;
+    outline: 2px solid #1F2937;
+}
+
+.container {
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.features-container {
+    display: flex;
+    margin-top: 25px;
+}
+
+#features {
+    padding: 50px;
+}
+
+#features .icon {
+    width: 20vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    color: #1F2937;
+}
+
+#features .description {
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#howItWorks {
+    display: flex;
+}
+
+#video {
+    max-width: 664px;
+    max-height: 630px;
+    margin: 0 auto;
+    border-radius: 5%;
+}
+
+#pricing {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    margin: 50px auto;
+}
+
+.product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid ;
+    border-radius: 3px;
+    flex: 0 1 300px;
+    margin: 10px;
+}
+
+.level {
+    width: 100%;
+    padding: 10px;
+}
+
+h3 {
+    margin: 15px;
+}
+
+#pricing li {
+    margin-bottom: 5px;
+}
+
+.no-access {
+    color:black;
+    text-decoration: line-through;
+}
+
+footer {
+    background-color:#1F2937;
+    color:#EEEEEE;
+    text-align: center;
+    padding: 10px 50px;
+}
+
+footer ul {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+footer a {
+    color:#EEEEEE;
+    text-decoration: none;
+}
+
+footer span {
+    font-size: 0.8rem;
+}
+
+@media only screen and (max-width: 600px) {
+    #howItWorks {
+        margin: auto 10px;
+    }
+}
